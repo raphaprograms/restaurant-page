@@ -1,6 +1,8 @@
 export {displayMenu}
 
 function displayMenu() {
+    const menuButton = document.querySelector('.menu-btn');
+    menuButton.classList.add('active-page')
     const container = document.querySelector('#content');
     container.textContent = ' ';
 

@@ -11,35 +11,85 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: #fffaf1;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 #content {
   display: flex;
   justify-content: center;
   width: 90%;
-  background-color: #fffaf1;
-  padding: 10px; 
+  border: 2px solid #dec19b;
+  padding: 10px;
 }
+
+header button {
+  background-color: #f4f0db;
+  border-top: 2px solid #dec19b;
+  border-left: 2px solid #dec19b;
+  border-right: 2px solid #dec19b;
+  border-bottom: none;
+
+}
+
+
 .main-div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  width: 90%;
+  width: 80%;
 }
 /* Homepage */
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecd9ba;
+}
+
+.rest-name {
+  font-weight: 800;
+}
+
+.rest-desc {
+  text-align: center;
+  width: 50ch;
+}
 
 .info-sect {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: #ecd9ba;
+  margin: 10px;
+}
+
+.header {
+  font-size: 1.2rem;
+  margin-top: 30px;
+
+}
+
+.info-text {
+  font-size: .9rem;
+}
+
+.day {
+  font-weight: 550;
+}
+
+.time {
+  text-decoration: underline;
 }
 
 
@@ -63,13 +113,13 @@ header {
 .food-header {
   display: flex;
   justify-content: space-between;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .food-details {
   display: flex;
   margin-top: 0;
-  font-size: .8em;
+  font-size: .8rem;
 }
 
 
